@@ -2,15 +2,15 @@
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	id="cordova-plugin-app-preferences"
+	id="cordova-plugin-get-udid-mdm"
 	version="0.99.3">
 
-	<name>AppPreferences</name>
-	<description>Application preferences plugin and preference pane generator</description>
+	<name>DeviceUid</name>
+	<description>Get Device Udid via Airwatch MDM</description>
 	<license>Apache</license>
-	<keywords>preferences, settings</keywords>
-	<repo>https://github.com/apla/me.apla.cordova.app-preferences</repo>
-	<issue>https://github.com/apla/me.apla.cordova.app-preferences/issues</issue>
+	<keywords>udid, mdm</keywords>
+	<repo>https://github.com/Jinali/get-udid-mdm</repo>
+	<issue>https://github.com/Jinali/get-udid-mdm/issues</issue>
 
 	<js-module src="www/apppreferences.js" name="apppreferences">
 		<clobbers target="plugins.appPreferences" />
